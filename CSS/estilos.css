@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+/* SELECTOR= ROOT */
+
+:root {
+
+    font-family: 'Ubuntu', sans-serif;   
+     font-size: 16Px;
+}
+
+/* MEDIDAS FLEXIBLES  */
+/* VH= VIEW PORT HRIGHT */
+/* VW= VIEW PORT WIDHT */
+
+/* regla */
+/* selector por clase */
+
+.headerstyle {
+
+    text-align:center;
+    border: 1px dashed orange;
+    
+    /* propiedades de texto */
+     text-transform: uppercase;
+     text-decoration: 1px underline red;
+     background-color: aquamarine;
+     /* bordes */
+      border-radius: 10px;
+      text-shadow: 5px 1px 2px black;
+
+      /* margin (separacion que hay entre 2 elementos*/
+      
+      margin-bottom: 1rem;
+     
+
+
+}
+
+
+/* selector po etiqueta (hijo de .headerstyle) */
+.headerstyle h1{
+
+    font-size: 3rem;
+    /* cambiar el grosor/weight */
+    font-weight: 400;
+    /* font-style: italic; */
+    font-size: 3em;
+    color: blue;
+
+}
+
+
+/* DEFINIR UNA REGLA */
+/* SLECTOR POR id */
+
+.mainSection {
+    
+    font-size: 10px; /*medida ABSOLUTA */
+    border: 1px solid black;
+    /* alto medida flexible vh */
+    height: 50vh; 
+    width: 50vw;
+    min-height:100px ;
+    min-width: 300px;
+}   
+/* Selector descendiente */
+.mainSection .mainDiv {
+    font-size: 2em;
+}
+.mainDiv p {
+    color: red;
+    /* hereda el tamaño de fuente de .mainsection (20px) */
+    /* medidas RELATIVAS */
+    font-size: 2em;
+    /*REM => 16PX * 2 =32PX  */
+    /*EM  => 20PX * 2 = 40PX */
+}
+
+p {
+    color: green;
+
+
+}
+
+  
+
+
+

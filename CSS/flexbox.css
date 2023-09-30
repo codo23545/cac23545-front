@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+:root {
+
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16Px
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    background: url(../imgs/logo_2021_S.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    height: 10vh;
+    min-height: 30px;
+    width: 20vw;
+    /* border: 1px solid black; */
+}
+
+.flex-container {
+    /* background-color: #15e4e4; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.links {
+
+    display: none;
+    list-style: none;
+    justify-content: flex-end;
+    width: 70vw;
+    font-size: 14px;
+    align-items: center;
+
+}
+.links li{
+
+    margin: 5px;
+}
+
+/* media query */
+
+@media screen and (min-width:426px) {
+
+    /* todod lo que pongo aca */
+    .flex-container {
+        flex-direction: row;
+        border-color: transparent;
+    }
+    .links {
+        display: flex;
+
+    }
+   .burger-menu{
+
+    display: none;
+   }
+
+}

@@ -1,0 +1,40 @@
+/* regla de css para tag h1 */
+
+/* selector de etiqueta: solo afecta h1 */
+h1 {
+
+
+    color: red
+}
+
+/* creo una regla que afecta al h3 */
+/* slector de etiqueta:h3 */
+
+h3 {
+
+    color: blue;
+
+}
+
+/* -------------- */
+/* otra regla oara h4 */
+h4 {
+
+    color: blueviolet;
+}
+
+/* regla para el id=capitanes */
+/* selector po id */
+#capitanes {
+    color: rgb(173, 255, 80);
+}
+
+/* ESPECIFICIDAD */
+/* Etiqueta < id */
+
+/* --------------- */
+/* selector por clase */
+
+.textoFuerte {
+    font-size: 30px;
+}

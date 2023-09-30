@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+:root{
+
+font-family:Georgia,
+}
+
+.headerContainer {
+
+     background: rgb(216, 156, 44);   
+
+     }
+.inline{
+
+    display: inline-block;
+
+
+}
+.headerTitle { 
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    width: 80vw;
+    text-transform: uppercase;
+    color: white;
+
+}
+.headerImg{
+
+    /* background: red; */
+    width: 15vw;
+    height: 20vh;
+    background-image: url(../imgs/micv.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.avatar {
+    
+    border-radius: 50% ;
+    width: 10vw;
+
+}
+
+.mainCV{
+
+   width: 80vw;
+   margin: 0 auto;
+
+
+
+  
+
+}
+
+.informacion h2{
+   
+    text-align: left;
+    color: rgb(214, 92, 21);
+
+}
+
+.informacion ul {
+ 
+    list-style: none;
+
+}
+.informacion li {
+ 
+    color: rgb(226, 195, 17);
+
+}   

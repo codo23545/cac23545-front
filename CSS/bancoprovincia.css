@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+
+
+:root {
+
+    font-family: 'Ubuntu', sans-serif;   
+     font-size: 16Px;
+    
+  
+     
+}
+.logo {
+
+    
+    background: url(../imgs/logo_2021_S.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    height: 10vh;
+    width: 10vw;
+    border: 1px solid black;
+    
+}
+
+.links{
+
+   /* height: 10vh; */
+   border: 1px solid black;
+   list-style: none;
+   display: inline-block;
+}
+
+.links li{
+  display: inline-block;
+  padding: 5px;
+}

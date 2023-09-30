@@ -1,0 +1,18 @@
+/*  EL HERMANO P DE H1 */
+/* selecciona el elemento que viene inmediatamente despues de : */
+
+
+h1 + p {
+
+font-size: 25px !important;
+color: blue;
+
+}
+/* HERMANOS GENERALES  */
+
+ h1 ~ p {   /*ALT 126 */
+font-size: 3em
+;
+
+
+}
